@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="App">
+        <div class="type">
+          <span class='selection'></span>
+          <button class='celcius' onclick="celcius()">
+            °C
+          </button>
+          <button class='farenheit' onclick="farenheit()">
+            °F
+          </button>
+        </div>
+        <div class='sunDiv'>
+          <span class='sun'></span>
+        </div>
+        <div class='tempInfo'>
+          <h1 class='temperature'>.</h1>
+          <div class='timeCondition'>
+            <h2 class='time'></h2>
+            <h2 class='condition'>.</h2>
+          </div>
+        </div>
+        <div class='box'>
+          <div class='otherInfo'>
+            <div class='pericipitationDiv'>
+              <h3 class='one'>PERCIPITATION</h3>
+              <span class='percipitation'></span>
+            </div>
+            <div class='humidityDiv'>
+              <h3 class='two'>HUMIDITY</h3>
+              <span class='humidity'></span>
+            </div>
+            <div class='windSpeedDiv'>
+              <h3 class='three'>WIND</h3>
+              <span class='windSpeed'></span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+      <script src="main.js"></script>
+</body>
+</html>
